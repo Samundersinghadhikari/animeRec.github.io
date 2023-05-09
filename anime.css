@@ -3,22 +3,192 @@ margin:0;
 padding:0;
 }
 body{
-background-color:#6ddcc9;
+background-color:black; /*black*/
 }
 
+.my-input {
+  background-color: black;
+  border: 1px solid black;
+  font-size: 14px;
+  padding:10px;
+  border-radius: 30px;
+  margin-top:9px;
+  height:1px;
+  width: 120px;
+}
+
+.setter{
+visibility: hidden;
+}
+
+
+
 .wrapper #ham{
-margin:4px;
-width:30px;
+margin:6px;
+width:43px;
 height:28px;
 }
 
 .wrapper #ani{
 width:40vw;
-height:38px;
+height:45px;
+}
+
+.wrapper #search{
+margin-top:13px;
+margin-left:3px;
+width:5vw;
+height:18px;
+}
+
+.wrapper #pic{
+margin-left:0px;
+width:47px;
+height:46px;
 }
 
 .wrapper{
 display:flex;
-background-color:#97a1ae;
+/*background-color:#2f3131;*/
+background-color:black;
+height:6vh;
+}
+
+nav{
+font-family: 'Bruno Ace SC', cursive;
+
+}
+
+nav .sam{
+display:flex;
+align-items:center;
+list-style-type:none;
 height:5vh;
+background-color:white;
+color:black;
+font-size:11px;
+}
+
+nav ul li{
+padding-top:4px;
+padding-right:20px;
+margin-left:10px;
+}
+
+.logo {
+width:100vw;
+height:22vh;
+}
+
+.logo img{
+position:relative;
+left:19vw;
+width:60vw;
+bottom:60px; /* i will change when needed */
+}
+
+
+.srch #in{
+padding:8px;
+position:relative;
+left:1vw;
+background-color:#2f3131;
+border:none;
+width:92vw;
+height:5vh;
+border-radius:10px;
+}
+
+.srch #dun{
+top:35vh;
+left:86vw;
+position:absolute;
+width:30px;
+height:30px;
+}
+
+#day{
+font-size:15px;
+margin-top:13px;
+margin-left:3px;
+color:white;
+font-family: 'Bruno Ace SC', cursive;
+}
+
+
+.twit{
+display:flex;
+align-items:center;
+margin-top:10px;
+justify-content:center;
+}
+
+
+.twit img{
+width:4vw;
+height:2vh;
+}
+
+.twit a{
+font-size:20px;
+margin-left:3px;
+text-decoration:none;
+color:white;
+}
+
+#go{
+display:felx;
+position:relative;
+left:10px;
+border-radius:5px;
+background-color:purple;
+width:95vw;
+height:6vh;
+}
+#go p{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+margin-top:18px;
+padding-top:12px;
+text-align:center;
+}
+#go p a{
+font-family: 'Ubuntu', sans-serif;
+text-decoration:none;
+color:white;
+}
+
+p{
+font-family: 'Ubuntu', sans-serif;
+margin-top:30px;
+padding-left:10px;
+color:white;
+}
+
+#hell{
+position:relative;
+top:12px;
+padding-left:10px;
+font-size:25px;
+}
+.foot{
+margin-top:35px;
+background-color:#2f3131;
+width:100vw;
+height:30vh;
+}
+
+.foot span img{
+position:relative;
+left:35vw;
+width:30vw;
+height:18vh;
+}
+
+.foot span p{
+position:relative;
+bottom:8vh;
+width:60vw;
+left:20vw;
+color:white
 }
