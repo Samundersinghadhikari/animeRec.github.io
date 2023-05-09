@@ -48,6 +48,7 @@ height:46px;
 }
 
 .wrapper{
+width:100vw;
 display:flex;
 /*background-color:#2f3131;*/
 background-color:black;
