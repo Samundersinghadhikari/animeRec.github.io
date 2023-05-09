@@ -24,8 +24,9 @@ visibility: hidden;
 
 
 .wrapper #ham{
-margin:6px;
-width:43px;
+margin-top:6px;
+/*width:43px;*/
+width:10vw;
 height:28px;
 }
 
@@ -44,18 +45,20 @@ height:18px;
 .wrapper #pic{
 margin-left:0px;
 width:47px;
+width:11vw;
 height:46px;
 }
 
 .wrapper{
-width:100vw;
 display:flex;
 /*background-color:#2f3131;*/
 background-color:black;
+width:100vw;
 height:6vh;
 }
 
 nav{
+width:100vw;
 font-family: 'Bruno Ace SC', cursive;
 
 }
